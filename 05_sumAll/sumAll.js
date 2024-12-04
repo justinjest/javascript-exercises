@@ -5,6 +5,7 @@ const sumAll = function (num1, num2) {
     if (num1 < 0 || num2 < 0) {
         return "ERROR"
     }
+    // So apparently JS doesn't have an int type so we need to use this weirdness
     if (Math.floor(num1) - num1 !== 0 || Math.floor(num2) - num2 !== 0) {
         return "ERROR"
     }
